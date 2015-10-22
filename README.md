@@ -3,6 +3,9 @@
 3- object is how you access the stuff inside your class and in big computers programs you may have the same function name in many classes to the object tell you what class you are working with.
 4-class data member are like variables and can be but in the private segment so as not to be changed later but functions members are used to access this data variables so they are in public segment
 6-class constructor does not have a return and is printed automatically ,used to initialize variables
-7-
+7-void main()
+{
+	bankaccount x("name");
+}
 8- default constructor is used to create object when you don't provide explicit initialization values
 
