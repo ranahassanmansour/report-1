@@ -6,21 +6,13 @@
 {
 public:
 	bankaccount(string name);
-	void display();
-	void deposit();
-	void withdrow();
+	void deposit(double addbalance);
+	void withdrow(double subtractbalance);
 private:
-	 
-	void display(double balance) {
-		cout << balance << endl;
-	}
-	void deposit(double addbalance) {
-		double balance;
-		addbalance += balance;
-	}
-	void withdrow(double subtractbalance) {
-		double balance;
-		subtractbalance -= balance;
+	double balance;
+	string name;
+	string account;
+	
 };
 6-class constructor does not have a return and is printed automatically ,used to initialize variables
 7-void main()
