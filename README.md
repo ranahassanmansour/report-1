@@ -8,4 +8,6 @@
 	bankaccount x("name");
 }
 8- default constructor is used to create object when you don't provide explicit initialization values
+9-
+10-this is key words that identifies a special tybe of pointers, stores the address of the current opject you are working with, *this is taking the memory location of the current opject adn calling the variable value right there (uses memory location)
 
