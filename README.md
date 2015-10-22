@@ -2,6 +2,26 @@
 2-by using private segment
 3- object is how you access the stuff inside your class and in big computers programs you may have the same function name in many classes to the object tell you what class you are working with.
 4-class data member are like variables and can be but in the private segment so as not to be changed later but functions members are used to access this data variables so they are in public segment
+5-class bankaccount 
+{
+public:
+	bankaccount(string name);
+	void display();
+	void deposit();
+	void withdrow();
+private:
+	 
+	void display(double balance) {
+		cout << balance << endl;
+	}
+	void deposit(double addbalance) {
+		double balance;
+		addbalance += balance;
+	}
+	void withdrow(double subtractbalance) {
+		double balance;
+		subtractbalance -= balance;
+};
 6-class constructor does not have a return and is printed automatically ,used to initialize variables
 7-void main()
 {
